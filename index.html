@@ -1,0 +1,47 @@
+//to display the date after changing the day of the month
+
+//First create a function to get called
+
+
+<script>
+function  getNewDate()   {
+var time = new Date();
+time.setUTCDate(2);
+document.getElementById("show").innerHTML = time;
+}
+</script>
+
+
+
+//create a p tag to display the output
+
+
+<p id="show"></p>
+
+
+
+//create a button to call the function
+
+
+
+<button type="button" onclick="getNewDate()">Check Now</button>
+
+
+
+
+//output
+
+
+
+Fri Aug 02 2019 15:05:55 GMT+0530 (India Standard Time)
+
+
+
+
+//
+
+
+
+
+
+//Thank you for reading the post. Have a great day!
